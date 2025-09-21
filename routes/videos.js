@@ -1,7 +1,7 @@
 const express = require("express");
 const multer = require("multer");
 const pool = require("../db");
-const { ensureAuth } = require("../middleware/authmiddleware");
+const ensureAuth  = require("../middleware/authmiddleware");
 const cloudinary = require("../cloudinary");
 const axios = require("axios"); // Flask API ke liye
 
